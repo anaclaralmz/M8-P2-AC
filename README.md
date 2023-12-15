@@ -17,38 +17,30 @@ f) No readme, descreva as vulnerabilidades identificadas e as medidas adotadas p
 
 
 # Vulnerabilidades identificadas e medidas adotadas
+-> principalmente vulnerabilidades de segurança, além de erros na construção da lógica de alguns trechos do código.
 
-### Id não estava sendo criado de forma autoincremental, sendo salvo como "null" na requisição
+### 1. Id não estava sendo criado de forma autoincremental, sendo salvo como "null" na requisição
 
-<img width="1242" alt="image" src="https://github.com/anaclaralmz/M8-P2-AC/blob/64de9212f4fd329a312739e7bdd00bd3379d97f6/assets/Captura%20de%20Tela%202023-12-15%20%C3%A0s%2014.29.55.png
-">
+<img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 14.29.55.png">
 
-<img width="1242" alt="image" src="https://github.com/anaclaralmz/M8-P2-AC/blob/64de9212f4fd329a312739e7bdd00bd3379d97f6/assets/Captura%20de%20Tela%202023-12-15%20%C3%A0s%2014.30.44.png
-">
+<img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 14.30.44.png">
 
-### POST de criação de dogs estava incompleto
+### 2. POST de criação de dogs estava incompleto
 
-<img width="1242" alt="image" src="https://github.com/anaclaralmz/M8-P2-AC/blob/64de9212f4fd329a312739e7bdd00bd3379d97f6/assets/Captura%20de%20Tela%202023-12-15%20%C3%A0s%2014.32.15.png
-">
+<img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 14.32.15.png">
+<img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 14.32.39.png">
 
-<img width="1242" alt="image" src="https://github.com/anaclaralmz/M8-P2-AC/blob/64de9212f4fd329a312739e7bdd00bd3379d97f6/assets/Captura%20de%20Tela%202023-12-15%20%C3%A0s%2014.32.39.png
-">
-
-### POST de votação dos animais não estava funcinando
+### 3. POST de votação dos animais não estava funcinando
 - código incompleto
 - falta de tratamento de erros (mesmo quando a requisição falhava, ele retornava que o voto havia sido computado
 - ausencia de verificação se o ID existia na tabela especificada
 
-  <img width="1242" alt="image" src="https://github.com/anaclaralmz/M8-P2-AC/blob/64de9212f4fd329a312739e7bdd00bd3379d97f6/assets/Captura%20de%20Tela%202023-12-15%20%C3%A0s%2014.36.05.png
-">
+<img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 14.36.05.png">
 
-### Não havia uma sanitização nem validação dos dados de entrada, deixando o sistema expostos a SQL injections
+### 4. Não havia uma sanitização nem validação dos dados de entrada, deixando o sistema expostos a SQL injections
 - foram criadas formas de validar o tipo de entrada nas requisições, impedindo a criacao de elementos vazios, ou a criação de votos em anumalTypes que não existem, por exemplo.
 
-  <img width="1242" alt="image" src="https://github.com/anaclaralmz/M8-P2-AC/blob/64de9212f4fd329a312739e7bdd00bd3379d97f6/assets/Captura%20de%20Tela%202023-12-15%20%C3%A0s%2014.37.31.png
-">
+<img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 14.37.31.png">
 
-<img width="1242" alt="image" src="https://github.com/anaclaralmz/M8-P2-AC/blob/64de9212f4fd329a312739e7bdd00bd3379d97f6/assets/Captura%20de%20Tela%202023-12-15%20%C3%A0s%2014.37.53.png
-">
-
+<img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 14.37.53.png">
 
