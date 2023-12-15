@@ -37,9 +37,11 @@ f) No readme, descreva as vulnerabilidades identificadas e as medidas adotadas p
 
 <img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 14.36.05.png">
 <img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 14.56.15.png">
+<img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 15.00.34.png">
 
 ### 4. Não havia uma sanitização nem validação dos dados de entrada, deixando o sistema expostos a SQL injections
 - foram criadas formas de validar o tipo de entrada nas requisições, impedindo a criacao de elementos vazios, ou a criação de votos em animalTypes que não existem, por exemplo.
+- ferramenta utilizada para as validações: express-validator
 
 <img width="1242" alt="image" src="/assets/Captura de Tela 2023-12-15 às 14.37.31.png">
 
