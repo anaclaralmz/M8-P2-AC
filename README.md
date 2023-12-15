@@ -20,9 +20,11 @@ f) No readme, descreva as vulnerabilidades identificadas e as medidas adotadas p
 
 ### Id não estava sendo criado de forma autoincremental, sendo salvo como "null" na requisição
 
-img
+<img width="1242" alt="image" src="https://github.com/anaclaralmz/M8-P2-AC/blob/64de9212f4fd329a312739e7bdd00bd3379d97f6/assets/Captura%20de%20Tela%202023-12-15%20%C3%A0s%2014.29.55.png
+">
 
-img
+<img width="1242" alt="image" src="https://github.com/anaclaralmz/M8-P2-AC/blob/64de9212f4fd329a312739e7bdd00bd3379d97f6/assets/Captura%20de%20Tela%202023-12-15%20%C3%A0s%2014.30.44.png
+">
 
 ### POST de criação de dogs estava incompleto
 
