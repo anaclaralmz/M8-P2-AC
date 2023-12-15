@@ -4,11 +4,17 @@ Inteli - Engenharia de Software | Avaliação 2023-2B P2 - Ana Clara Loureiro Mu
 ## Barema
 
 a) Criar um fork do repositório para a sua conta do github; ok
+
 b) Sanitizar e validar dados de entrada para evitar SQL Injection. ok
+
 c) Corrigir a lógica de votação para que verifique se o registro do animal existe antes de adicionar um voto. ok
+
 d) Implementar e tratar erros de maneira adequada, sem vazar detalhes de implementação. ok
+
 e) Implementar todos os métodos que possuem assinatura no código. ok
+
 f) No readme, descreva as vulnerabilidades identificadas e as medidas adotadas para corrigir cada uma delas. ok
+
 
 # Vulnerabilidades identificadas e medidas adotadas
 
